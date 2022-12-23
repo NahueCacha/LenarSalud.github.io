@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #fff;
+}
+.Menu{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+}
+.logo img {
+    height: 100px;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+.logo img:hover {
+    height: 110px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.Telefono_number{
+    
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.Telefono_number:hover{
+    font-size: 20px;
+    border-bottom: 1px  solid #047CBA;
+}
+.nav_link{
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    transition: 0.6s ease;
+}
+.nav_link:hover{
+    border-bottom: 1px  solid #047CBA;
+    font-size: 22px;
+}
+.links_nav{
+    color: black;
+    text-decoration: none;
+}
+.inicio {
+    background: #047CBA;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contendor_inicio{
+    display: flex;
+}
+.img_inicio{
+    font-size: 150px;
+    color: #fff;
+}
+.contenedor_prods{
+    display: flex;
+    justify-content: center;
+}
+.productos {
+    background: #047CBA;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.producto{
+    margin: 10px;
+    box-shadow: 0 0 20px 0 #13233A;
+    border-radius:  10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.producto a{
+    color: silver;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.producto a:hover{
+    font-size: 22px;
+}
+.imagen_producto{
+    height: 200px;
+}
+.bt_more_productos{
+    border: none;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s ease;
+    margin: 10px;
+    font-size: 16px;
+    width: 50%;
+    border-bottom: 1px  solid #13233A;
+}
+.bt_more_productos:hover{
+    border-radius: 10px;
+    background: #13233A;
+    color:  silver;
+    font-size: 20px;
+    width: 70%;
+}
+.contactanos {
+    background: #047CBA;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.contenedor_contact{
+    display: flex;
+    padding: 10px;
+}
+.form_contact p{
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+.form_contact {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}
+.text_box{
+    margin: 5px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #13233A;
+    font-size: 18px;
+    transition: 0.3s ease;
+    width: 90%;
+}
+.text_box:hover{
+    background: #13233A;
+    border-radius: 10px;
+    color: silver;
+}
+.bt_send_form{
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 45%;
+    transition: 0.3s ease;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px  solid #13233A;
+}
+.bt_send_form:hover{
+    border-radius: 10px;
+    background-color: #09B432;
+    font-size: 22px;
+    width: 70%;
+}
+.information_contact {
+    width: 30%;
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    background: #13233A;
+    color: silver;
+    border-radius: 10px;
+    position: relative;
+}
+.icon_contact{
+    border: none;
+    background-color: transparent;
+    color: silver;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
+.icon_contact:hover{
+    font-size: 40px;
+}
+@media screen and (max-width: 1115px) {
+    .Menu{
+        flex-direction: column;
+    }
+    .logo{
+        flex-direction: column;
+    }
+    .nav_link{
+        font-size: 16px;
+    }
+    .img_inicio{
+        font-size: 100px;
+    }
+    .contendor_inicio{
+        flex-direction: column;
+    }
+    .contenedor_prods{
+        flex-direction: column;
+    }
+    .imagen_producto{
+        height: 160px;
+    }
+    .bt_more_productos{
+        border-radius: 10px;
+        background: transparent;
+        font-family: 'Montserrat', sans-serif;
+        transition: 0.3s ease;
+        margin: 10px;
+        font-size: 16px;
+        width: 80%;
+    }
+    .bt_more_productos:hover{
+        background: #13233A;
+        color:  silver;
+        font-size: 18px;
+        width: 90%;
+    }
+    .contactanos{
+        padding: 10px;
+    }
+    .contenedor_contact{
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+        align-items: center;
+    }
+    .form_contact{
+        width: 100%;
+    }
+    .bt_send_form{
+        width: 70%;
+    }
+    .bt_send_form:hover{
+        width: 80%;
+    }
+    .information_contact{
+        width: 80%;
+        padding: 20px;
+    }
+}
